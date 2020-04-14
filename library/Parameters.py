@@ -78,12 +78,12 @@ def ml(para=None):
     if para is None:
         para = dict()
     para['dataset'] = 'mnist'
-    para['path_dataset'] = '../../data_python/'
+    para['path_dataset'] = './data_python/'
     para['data_type'] = ['train', 'test']
     para['classifier_type'] = None
     para['sort_module'] = 'rand'
     para['divide_module'] = 'label'
-    para['save_data_path'] = '../data/'
+    para['save_data_path'] = './data/'
     para['rand_index_seed'] = 1
     para['data_deal_method'] = ['normalization']
     para['resize_size'] = (5, 5)

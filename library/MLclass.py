@@ -22,8 +22,7 @@ class MachineLearning:
         self.update_info = dict()
         self.data_info = dict()
         self.tmp = {}
-        self.generative_model = ['GTN', 'GTTN', 'GTNO',  'GTNO_OneLayer',
-                                 'GTNO_TwoLayer', 'GJEPG', 'GTN_BP', 'Update_Test', 'DTNC', 'DTTNC', 'GTN_Net']
+        self.generative_model = ['GTN', 'GTN_Net']
         self.discriminative_model = ['DTNC']
 
     def initialize_dataset(self):
